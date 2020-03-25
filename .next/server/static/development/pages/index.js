@@ -127,14 +127,14 @@ const Layout = ({
 }) => __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 8
+    lineNumber: 7
   },
   __self: undefined
 }, __jsx("div", {
   className: "root",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 9
+    lineNumber: 8
   },
   __self: undefined
 }, children));
@@ -450,7 +450,7 @@ const Mask = props => {
     xlinkHref: props.img,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 27
     },
     __self: undefined
   }));
