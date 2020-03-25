@@ -9,8 +9,8 @@
 export interface ICardProps {
   id: String, - идентификатор карточки (порядковый номер)
   img: String, - путь к изображению для карточки
-  title: String, - заголовок 
-  text: String, - текст 
+  title: String, - заголовок
+  text: String, - текст
   className: String, - дополнительные классы (для карточки)
   imgWrapStyle: {
     backgroundColor: any – задает background-color маскируемой области (задается строкой в любом формате hex, rgb и т.д.)
@@ -20,7 +20,7 @@ export interface ICardProps {
   maskHeight: String, - высота маски (может задаваться в px или %) 
 }
 
-export interface IColCardProps {  
+export interface IColCardProps {
   className: String, - дополнительные классы для «обертки» над карточкой
   cardProps: ICardProps – данные карточки
 }
